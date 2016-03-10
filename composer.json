@@ -1,0 +1,25 @@
+{
+  "name": "paulvl/php-helpers",
+  "description": "A bunch of useful helpers.",
+  "keywords": [
+    "php",
+    "helpers"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Vidal",
+      "email": "i@paulvl.me"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "5.2.*"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
